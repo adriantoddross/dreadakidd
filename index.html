@@ -25,7 +25,22 @@
       </nav>
     </header>
     <main id="main">
-      Hello World!
+      <!-- Warning! An iframe element never has fallback content: https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading -->
+      <!-- Loading attribute is an experimental API that should not be used in production code: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe -->
+      <!-- Importance attribute is an experimental API that should not be used in production code -->
+      <iframe
+        name="featured-video"
+        loading="lazy"
+        importance="low"
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/oZrfzjwLGZA"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <!-- Still thinking through markup for album art w/ links -->
+      <img src="" alt="">
     </main>
     <footer id="footer">
       <nav>
