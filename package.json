@@ -1,0 +1,24 @@
+{
+  "name": "dreadakidd",
+  "version": "1.0.0",
+  "description": "Website for music artist DreaDaKidd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriantoddross/dreadakidd.git"
+  },
+  "keywords": [
+    "music",
+    "vanilla javascript",
+    "progressive enhancement"
+  ],
+  "author": "Adrian Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriantoddross/dreadakidd/issues"
+  },
+  "homepage": "https://github.com/adriantoddross/dreadakidd#readme"
+}
