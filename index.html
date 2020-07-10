@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DreaDaKidd</title>
+    <title>Drea Da Kidd</title>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
     <header>
       <h1>
         <a href="/" title="DreaDaKidd.com">
-          <span class="visually-hidden">DreaDaKidd</span>
+          <span class="visually-hidden">Drea Da Kidd</span>
           <img src="/" alt="" />
         </a>
       </h1>
@@ -25,13 +25,8 @@
       </nav>
     </header>
     <main id="main">
-      <!-- Warning! An iframe element never has fallback content: https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading -->
-      <!-- Loading attribute is an experimental API that should not be used in production code: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe -->
-      <!-- Importance attribute is an experimental API that should not be used in production code -->
       <iframe
         name="featured-video"
-        loading="lazy"
-        importance="low"
         width="560"
         height="315"
         src="https://www.youtube-nocookie.com/embed/oZrfzjwLGZA"
@@ -39,8 +34,14 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <!-- Still thinking through markup for album art w/ links -->
-      <img src="" alt="">
+      <a href="https://linktr.ee/">
+        <span class="visually-hidden">Drea Da Kidd - See The Vision</span>
+        <img
+          class="featured-project"
+          src="https://res.cloudinary.com/adriantoddross/image/upload/v1594393242/dreadakidd-seethevision-albumcover.jpg"
+          alt="Cover art for Drea Da Kidd's See The Vision mixtape"
+        />
+      </a>
     </main>
     <footer id="footer">
       <nav>
@@ -78,12 +79,10 @@
           &copy; 2020 Drea Da Kidd. All rights reserved.
         </small>
       </p>
-      <nav>
-        <ul>
-          <li><a href="/privacypolicy/">Privacy Policy</a></li>
-          <li><a href="/terms/">Terms and Conditions</a></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><a href="/privacypolicy/">Privacy Policy</a></li>
+        <li><a href="/terms/">Terms and Conditions</a></li>
+      </ul>
     </footer>
   </body>
 </html>
