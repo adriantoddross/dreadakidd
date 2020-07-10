@@ -1,88 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-hook="homepage">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drea Da Kidd</title>
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
     <header>
-      <h1>
-        <a href="/" title="DreaDaKidd.com">
-          <span class="visually-hidden">Drea Da Kidd</span>
-          <img src="/" alt="" />
-        </a>
-      </h1>
-      <nav id="main-nav" aria-label="Main">
-        <ul>
-          <li><a href="/merch/">Merch</a></li>
-          <li><a href="/shows/">Shows</a></li>
-          <li><a href="/videos/">Videos</a></li>
-          <li><a href="/music/">Music</a></li>
-          <li><a href="/booking/">Booking</a></li>
-        </ul>
-      </nav>
+      <div class="content-wrapper">
+        <h1>
+          <a href="/" title="DreaDaKidd.com">
+            <span class="visually-hidden">Drea Da Kidd</span>
+            <!-- Still waiting on logo; may be an img or svg. -->
+            <img src="/" alt="" />
+          </a>
+        </h1>
+        <nav id="main-nav" aria-label="Main">
+          <ul>
+            <li><a href="/merch/">Merch</a></li>
+            <li><a href="/shows/">Shows</a></li>
+            <li><a href="/videos/">Videos</a></li>
+            <li><a href="/music/">Music</a></li>
+            <li><a href="/booking/">Booking</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main id="main">
-      <iframe
-        name="featured-video"
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/oZrfzjwLGZA"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <a href="https://linktr.ee/">
-        <span class="visually-hidden">Drea Da Kidd - See The Vision</span>
-        <img
-          class="featured-project"
-          src="https://res.cloudinary.com/adriantoddross/image/upload/v1594393242/dreadakidd-seethevision-albumcover.jpg"
-          alt="Cover art for Drea Da Kidd's See The Vision mixtape"
-        />
-      </a>
+      <div class="content-wrapper">
+        <iframe
+          name="featured-video"
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/oZrfzjwLGZA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <a href="https://linktr.ee/">
+          <span class="visually-hidden">Drea Da Kidd - See The Vision</span>
+          <img
+            class="featured-project"
+            src="https://res.cloudinary.com/adriantoddross/image/upload/v1594393242/dreadakidd-seethevision-albumcover.jpg"
+            alt="Cover art for Drea Da Kidd's See The Vision mixtape"
+          />
+        </a>
+      </div>
     </main>
     <footer id="footer">
-      <nav>
+      <div class="content-wrapper">
+        <nav>
+          <ul>
+            <!-- Visual (but accessible) icons: https://a11y-101.com/development/icons-and-links -->
+            <!-- Still need to add the visually-hidden class to hide spans. -->
+            <li>
+              <a href="https://www.facebook.com/DreaDaKidd/">
+                <i class="footer-link" aria-hidden="true"></i>
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/dreadakidd">
+                <i class="footer-link" aria-hidden="true"></i>
+                <span class="visually-hidden">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/dreadakidd">
+                <i class="footer-link" aria-hidden="true"></i>
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/user/HeardGangWGB">
+                <i class="footer-link" aria-hidden="true"></i>
+                <span class="visually-hidden">YouTube</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <p>
+          <small>
+            &copy; 2020 Drea Da Kidd. All rights reserved.
+          </small>
+        </p>
         <ul>
-          <!-- Visual (but accessible) icons: https://a11y-101.com/development/icons-and-links -->
-          <!-- Still need to add the visually-hidden class to hide spans. -->
-          <li>
-            <a href="https://www.facebook.com/DreaDaKidd/">
-              <i class="footer-link" aria-hidden="true"></i>
-              <span class="visually-hidden">Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/dreadakidd">
-              <i class="footer-link" aria-hidden="true"></i>
-              <span class="visually-hidden">Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/dreadakidd">
-              <i class="footer-link" aria-hidden="true"></i>
-              <span class="visually-hidden">Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/user/HeardGangWGB">
-              <i class="footer-link" aria-hidden="true"></i>
-              <span class="visually-hidden">YouTube</span>
-            </a>
-          </li>
+          <li><a href="/privacypolicy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms and Conditions</a></li>
         </ul>
-      </nav>
-      <p>
-        <small>
-          &copy; 2020 Drea Da Kidd. All rights reserved.
-        </small>
-      </p>
-      <ul>
-        <li><a href="/privacypolicy/">Privacy Policy</a></li>
-        <li><a href="/terms/">Terms and Conditions</a></li>
-      </ul>
+      </div>
     </footer>
   </body>
 </html>
