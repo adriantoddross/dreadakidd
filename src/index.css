@@ -44,7 +44,11 @@ main {
   padding: 10vw 0;
 }
 
-main-nav-list {
+.main-nav {
+  margin-top: 1em;
+}
+
+.main-nav-list {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -53,7 +57,7 @@ main-nav-list {
   padding: 0;
 }
 
-main-nav-item {
+.main-nav-item {
   font-size: 0.9em;
   text-decoration: none;
 }
