@@ -1,4 +1,5 @@
 body {
+  background-color: #042254;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0 auto;
@@ -17,7 +18,6 @@ body {
 }
 
 .skip-link {
-  background: var(--purple);
   color: #fff;
   font-size: 1em;
   left: 0;
