@@ -1,4 +1,10 @@
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
+  .main-nav-list {
+  padding: 0 15%;
+  }
+}
+
+@media (min-width: 1024px) {
   .main-nav-list {
   padding: 0 25%;
   }
