@@ -1,8 +1,17 @@
 body {
   background-color: black;
-  background-image: url(), linear-gradient(to right, #45607c 0%, #56698f 50%, #6e5887 75%, #825a7a 100%);
+  background-image: url(),
+    linear-gradient(
+      to right,
+      #45607c 0%,
+      #56698f 50%,
+      #6e5887 75%,
+      #825a7a 100%
+    );
   color: white;
 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0 auto;
@@ -75,6 +84,7 @@ main {
   flex-direction: column;
 }
 
-.featured-video, .featured-project {
-  max-width: 100%;;
+.featured-video,
+.featured-project {
+  max-width: 100%;
 }
