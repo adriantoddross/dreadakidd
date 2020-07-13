@@ -9,9 +9,7 @@ body {
       #825a7a 100%
     );
   color: white;
-
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0 auto;
@@ -54,6 +52,10 @@ body {
 main {
   margin: 0 auto;
   padding: 10vw 0;
+}
+
+.main-header {
+  padding: 1rem 0;
 }
 
 .main-nav {
