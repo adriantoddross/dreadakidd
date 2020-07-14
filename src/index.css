@@ -1,13 +1,5 @@
 body {
   background-color: black;
-  background-image: url(),
-    linear-gradient(
-      to right,
-      #45607c 0%,
-      #56698f 50%,
-      #6e5887 75%,
-      #825a7a 100%
-    );
   color: white;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 1rem;
@@ -15,6 +7,36 @@ body {
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
+}
+
+/* Apply a filter to background image: https://css-tricks.com/apply-a-filter-to-a-background-image/ */
+
+.background-image,
+.background-container {
+  position: relative;
+}
+
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-blend-mode: darken;
+  background-image: url(assets/images/dreadakidd-seethevision-albumcover__progessive.jpg),
+    linear-gradient(
+      to right,
+      #45607c 0%,
+      #56698f 50%,
+      #6e5887 75%,
+      #825a7a 100%
+    );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px);
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -45,10 +67,6 @@ body {
   max-width: 90vw;
 }
 
-[data-hook="homepage"] main {
-  padding-top: 2vw;
-}
-
 main {
   margin: 0 auto;
   padding: 10vw 0;
@@ -65,7 +83,7 @@ main {
 .main-nav-list {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -79,6 +97,19 @@ main {
 .main-nav-item a {
   color: inherit;
   text-decoration: none;
+}
+
+.main-nav-item a:hover {
+  text-align: white;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+
+.main-nav-item a:focus {
+  background-color: #493072;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 0.5em 1em;
 }
 
 .featured-links {
