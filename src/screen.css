@@ -1,11 +1,19 @@
 @media (min-width: 768px) {
   .main-nav-list {
-  padding: 0 15%;
+    padding: 0 15%;
   }
 }
 
 @media (min-width: 1024px) {
   .main-nav-list {
-  padding: 0 25%;
+    padding: 0 35%;
+  }
+
+  .main-nav-item {
+    font-size: 1rem;
+  }
+
+  .background-image::before {
+    filter: blur(8px);
   }
 }
