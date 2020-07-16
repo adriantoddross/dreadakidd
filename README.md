@@ -1,11 +1,11 @@
 # Drea Da Kidd
-> An accessible, performant, progressively enhanced music artist website (based on [tygamusic.com](tygamusic.com/)) for music artist [Drea Da Kidd](https://www.youtube.com/channel/UC-s6iMLJQVDGXMN5Eb5IcwQ).
+> An accessible, performant, progressively enhanced music artist website (based on [tygamusic.com](https://tygamusic.com/)) for music artist [Drea Da Kidd](https://www.youtube.com/channel/UC-s6iMLJQVDGXMN5Eb5IcwQ).
 
 In early 2020, my friend Drea Da Kidd reached out to me with a lot of ideas. Ultimately, he was ready to start laying down the foundation necessary to become a successful music artist. At one point, he even expressed interest in me being his manager, but I decided to offer help in my area of expertise: frontend development.
 
 ## How This Website Came To Be
 
-Drea had reasonable expectations and wasn't asking for much. He wanted a site that looked like [tygamusic.com](tygamusic.com/). That was it. He'd provide the assets and copy for anything I needed. I even put together a design brief, but it wasn't necessary. This was one of the simplest things I'd ever agreed to!
+Drea had reasonable expectations and wasn't asking for much. He wanted a site that looked like [tygamusic.com](https://tygamusic.com/). That was it. He'd provide the assets and copy for anything I needed. I even put together a design brief, but it wasn't necessary. This was one of the simplest things I'd ever agreed to!
 
 I'd made wireframes and mockups based on our reference site, and everything was fine until I was actually ready to start coding. Everything was fine until I inspected the HTML of our reference site... 😰
 
