@@ -83,6 +83,7 @@ main {
 .main-nav-list {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   list-style: none;
   margin: 0;
@@ -115,6 +116,10 @@ main {
 .featured-links {
   display: flex;
   flex-direction: column;
+}
+
+.featured-project {
+  padding-top: 1rem;
 }
 
 .featured-video,
