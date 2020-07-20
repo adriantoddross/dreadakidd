@@ -118,13 +118,15 @@ main {
   flex-direction: column;
 }
 
-.featured-project {
-  padding-top: 1rem;
+.featured-video,
+.featured-project,
+.album-cover {
+  max-width: 100%;
 }
 
-.featured-video,
 .featured-project {
-  max-width: 100%;
+  align-self: center;
+  padding-top: 1rem;
 }
 
 .iframe-container {
