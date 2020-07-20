@@ -69,7 +69,7 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 10vw 0;
+  padding: 2vw 0;
 }
 
 .main-header {
@@ -142,7 +142,6 @@ main {
   position: absolute;
   top: 0;
   width: 100%;
-  overflow: auto;
 }
 
 /* 4x3 Aspect Ratio */
