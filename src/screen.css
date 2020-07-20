@@ -8,6 +8,10 @@
   .main-nav-list {
     padding: 0 15%;
   }
+
+  .featured-links {
+    margin: 0 10vw;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -21,5 +25,9 @@
 
   .background-image::before {
     filter: blur(8px);
+  }
+
+  .featured-links {
+    margin: 0 25vw;
   }
 }
