@@ -72,7 +72,7 @@ main {
   padding: 2vw 0;
 }
 
-.main-header {
+.main-header, .footer {
   padding: 1rem 0;
 }
 
@@ -174,4 +174,8 @@ main {
 .social-media-link {
   font-size: 1.5em;
   padding: 0 0.5em;
+}
+
+.privacy-link {
+  padding: 0.25em 0;
 }
