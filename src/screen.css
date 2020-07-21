@@ -30,4 +30,12 @@
   .featured-links {
     margin: 0 25vw;
   }
+
+  .privacy-links {
+    flex-direction: row;
+  }
+
+  .privacy-link {
+    padding: 0 0.5em;
+  }
 }
