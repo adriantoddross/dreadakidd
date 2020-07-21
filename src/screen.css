@@ -1,6 +1,16 @@
+@media (min-width: 375px) {
+  .main-nav-list {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 768px) {
   .main-nav-list {
     padding: 0 15%;
+  }
+
+  .featured-links {
+    margin: 0 10vw;
   }
 }
 
@@ -15,5 +25,9 @@
 
   .background-image::before {
     filter: blur(8px);
+  }
+
+  .featured-links {
+    margin: 0 25vw;
   }
 }

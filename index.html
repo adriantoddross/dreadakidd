@@ -41,24 +41,29 @@
       </header>
       <main id="main">
         <div class="content-wrapper featured-links">
-          <iframe
-            title="YouTube embedded video of Drea Da Kidd performing I Can't Wait"
-            name="featured-video"
-            class="featured-video"
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/oZrfzjwLGZA"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <a href="https://linktr.ee/">
+          <div class="iframe-container">
+            <iframe
+              title="Drea Da Kidd performing \"I Can't Wait\""
+              name="featured-video"
+              class="featured-video"
+              src="https://www.youtube-nocookie.com/embed/oZrfzjwLGZA"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <a href="https://linktr.ee/" class="featured-project">
             <span class="visually-hidden">Drea Da Kidd - See The Vision</span>
-            <img
-              class="featured-project"
-              src="https://res.cloudinary.com/adriantoddross/image/upload/v1594393242/dreadakidd-seethevision-albumcover.jpg"
-              alt="Cover art for Drea Da Kidd's See The Vision mixtape"
-            />
+            <picture>
+              <img
+              class="album-cover"
+              sizes="(max-width: 508px) 100vw, 508px"
+              srcset="
+              src/assets/images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_200.jpg 200w,
+              src/assets/images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_330.jpg 330w,
+              src/assets/images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_439.jpg 439w,
+              src/assets/images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_508.jpg 508w"
+              src="src/assets/images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_508.jpg"
+              alt="">
+              </picture>
           </a>
         </div>
       </main>
