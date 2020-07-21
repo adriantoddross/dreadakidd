@@ -100,13 +100,13 @@ main {
 .main-nav-item,
 .privacy-link {
   font-size: 0.9em;
-  text-decoration: none;
 }
 
 .main-nav-item a,
 .social-media-link a,
 .privacy-link a {
   color: inherit;
+  text-decoration: none;
 }
 
 .main-nav-item a:hover,
