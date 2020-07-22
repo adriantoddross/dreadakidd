@@ -82,9 +82,7 @@ main {
   margin-top: 1em;
 }
 
-.main-nav-list,
-.social-media-links,
-.privacy-links {
+.ul-links {
   align-items: center;
   display: flex;
   list-style: none;
@@ -102,24 +100,18 @@ main {
   font-size: 0.9em;
 }
 
-.main-nav-item a,
-.social-media-link a,
-.privacy-link a {
+.ul-link a {
   color: inherit;
   text-decoration: none;
 }
 
-.main-nav-item a:hover,
-.social-media-link a:hover,
-.privacy-link a:hover {
+.ul-link a:hover {
   text-align: white;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
 }
 
-.main-nav-item a:focus,
-.social-media-link a:focus,
-.privacy-link a:focus {
+.ul-link a:focus  {
   background-color: #493072;
   border-radius: 4px;
   font-weight: bold;
