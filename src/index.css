@@ -23,9 +23,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-
   background-blend-mode: darken;
-  background-image: url(assets/images/dreadakidd-seethevision-albumcover__progessive.jpg),
+  background-image: url(
+      assets/images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_508.jpg),
     linear-gradient(
       to right,
       #45607c 0%,
@@ -72,41 +72,46 @@ main {
   padding: 2vw 0;
 }
 
-.main-header {
+.main-header,
+.footer, .fine-print {
   padding: 1rem 0;
 }
 
-.main-nav {
+.main-nav,
+.footer {
   margin-top: 1em;
 }
 
-.main-nav-list {
+.ul-links {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.main-nav-item {
-  font-size: 0.9em;
-  text-decoration: none;
+.main-nav-list {
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.main-nav-item a {
+.main-nav-item,
+.privacy-link {
+  font-size: 0.9em;
+}
+
+.ul-link a {
   color: inherit;
   text-decoration: none;
 }
 
-.main-nav-item a:hover {
+.ul-link a:hover {
   text-align: white;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
 }
 
-.main-nav-item a:focus {
+.ul-link a:focus  {
   background-color: #493072;
   border-radius: 4px;
   font-weight: bold;
@@ -147,4 +152,28 @@ main {
 /* 4x3 Aspect Ratio */
 .iframe-container-4x3 {
   padding-top: 75%;
+}
+
+.footer,
+.privacy-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media-links {
+  flex-direction: row;
+}
+
+.social-media-link {
+  font-size: 1.5em;
+  padding: 0 0.5em;
+}
+
+.privacy-link {
+  padding: 0.25em 0;
+}
+
+.fine-print {
+  font-size: 0.9em;
 }

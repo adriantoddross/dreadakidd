@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 360px) {
   .main-nav-list {
     flex-direction: row;
   }
@@ -29,5 +29,13 @@
 
   .featured-links {
     margin: 0 25vw;
+  }
+
+  .privacy-links {
+    flex-direction: row;
+  }
+
+  .privacy-link {
+    padding: 0 0.5em;
   }
 }
