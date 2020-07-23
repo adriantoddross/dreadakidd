@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Website for music artist DreaDaKidd",
   "main": "index.js",
+  "private": true,
   "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
