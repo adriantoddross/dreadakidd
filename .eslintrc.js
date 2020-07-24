@@ -1,21 +1,14 @@
 module.exports = {
   env: {
     browser: true,
-    es2020: true
+    es2020: true,
   },
-  extends: [
-    'standard',
-    'prettier'
-  ],
-  parser: '@typescript-eslint/parser',
+  extends: ["standard", "prettier"],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 11,
-    sourceType: 'module'
+    sourceType: "module",
   },
-  plugins: [
-    '@typescript-eslint',
-    "html"
-  ],
-  rules: {
-  }
-}
+  plugins: ["@typescript-eslint", "html"],
+  rules: {},
+};
