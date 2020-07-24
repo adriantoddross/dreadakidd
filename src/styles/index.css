@@ -25,7 +25,7 @@ body {
   height: 100%;
   background-blend-mode: darken;
   background-image: url(
-      ../images/dreadakidd-seethevision-albumcover__progessive_508_w2lnam_c_scale,w_508.jpg),
+    ../../dist/images/dreadakidd-seethevision-albumcover__508.jpg),
     linear-gradient(
       to right,
       #45607c 0%,
