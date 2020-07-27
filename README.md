@@ -1,5 +1,5 @@
 # dreadakidd
-Website for music artist DreaDaKidd. This is a minimal, vanilla Javascript website that uses webpack for bundling & image compression and progressive enhancement.
+Website for music artist DreaDaKidd. This is a minimal, vanilla Javascript website that uses webpack for bundling & file compression.
 
 ## Project Setup
 
@@ -7,6 +7,10 @@ Website for music artist DreaDaKidd. This is a minimal, vanilla Javascript websi
 
 ## NPM Scripts
 
-### Starting the dev environment
+### Starting the development server
 
-```npm run bundle```to generate the files needed for the local development server. Then type ```npm run dev-server``` in your terminal to start the local development server.
+Use ```npm run bundle```to generate the files needed for the local development server to work. These files will appear locally in the dist/ folder.
+
+Now you can start the development server with ```npm run dev-server```.
+
+
