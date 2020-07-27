@@ -1,15 +1,16 @@
 const path = require("path");
-const distFolderPath = path.join(__dirname, "/dist");
 
 module.exports = {
-  mode: "none",
-  entry: "./src/index.js",
+  mode: "development",
+  entry: {
+    app: "./src/index.js",
+  },
   output: {
-    path: distFolderPath,
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, "dist"),
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [
