@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef595979-a02b-4d8a-b031-65e07db46645/deploy-status)](https://app.netlify.com/sites/dreadakidd/deploys)
+
 # dreadakidd
 Website for music artist DreaDaKidd; This is a minimal, vanilla Javascript website that uses webpack for bundling, file and image compression. This project is still a work-in-progress but you can preview it on [Netlify](https://dreadakidd.netlify.app/).
 
