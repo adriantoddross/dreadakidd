@@ -24,8 +24,7 @@ body {
   width: 100%;
   height: 100%;
   background-blend-mode: darken;
-  background-image: url(
-    ../images/dreadakidd-seethevision-albumcover__508.jpg),
+  background-image: url(../images/dreadakidd-seethevision-albumcover__508.jpg),
     linear-gradient(
       to right,
       #45607c 0%,
@@ -36,7 +35,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(4px);
+  filter: blur(8px);
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -67,13 +66,18 @@ body {
   max-width: 90vw;
 }
 
+.logo {
+  text-align: center;
+}
+
 main {
   margin: 0 auto;
   padding: 2vw 0;
 }
 
 .main-header,
-.footer, .fine-print {
+.footer,
+.fine-print {
   padding: 1rem 0;
 }
 
@@ -100,6 +104,10 @@ main {
   font-size: 0.9em;
 }
 
+.main-nav-item a:focus {
+  padding: 0.5em 1em;
+}
+
 .ul-link a {
   color: inherit;
   text-decoration: none;
@@ -111,11 +119,9 @@ main {
   text-decoration-skip-ink: auto;
 }
 
-.ul-link a:focus  {
+.ul-link a:focus {
   background-color: #493072;
   border-radius: 4px;
-  font-weight: bold;
-  padding: 0.5em 1em;
 }
 
 .featured-links {
@@ -131,7 +137,7 @@ main {
 
 .featured-project {
   align-self: center;
-  padding-top: 1rem;
+  margin-top: 1em;
 }
 
 .iframe-container {
@@ -166,8 +172,12 @@ main {
 }
 
 .social-media-link {
-  font-size: 1.5em;
+  font-size: 2.25em;
   padding: 0 0.5em;
+}
+
+.social-media-link a:focus {
+  padding: 0.25em 0.5em;
 }
 
 .privacy-link {
@@ -175,5 +185,9 @@ main {
 }
 
 .fine-print {
+  text-align: center;
+}
+
+.fine-print small {
   font-size: 0.9em;
 }
