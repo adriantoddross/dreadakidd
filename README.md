@@ -9,8 +9,8 @@ Website for music artist DreaDaKidd. This is a minimal, vanilla Javascript websi
 
 ### Starting the development server
 
-Use ```npm run bundle```to generate the files needed for the local development server to work. These files will appear locally in the dist/ folder.
+To start the development server, use ```npm start```. To see what the development bundle looks like, you can use ```npm bundle``` and check out the dist/ folder..
 
-Now you can start the development server with ```npm run dev-server```.
+### Generating a build folder for production
 
-
+To generate a build folder for production, use ```npm build```.
