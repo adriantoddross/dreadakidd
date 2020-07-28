@@ -8,6 +8,7 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "bundle": "webpack",
+    "deploy": "netlify deploy --prod --dir build",
     "prettier": "prettier --write \"**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
