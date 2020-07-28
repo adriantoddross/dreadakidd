@@ -9,7 +9,7 @@ Website for music artist DreaDaKidd. This is a minimal, vanilla Javascript websi
 
 ### Starting the development server
 
-To start the development server, use ```npm start```. To see what the development bundle looks like, you can use ```npm bundle``` and check out the dist/ folder..
+To start the development server, use ```npm start```. To see what the development bundle looks like, you can use ```npm bundle``` and check out the dist/ folder.
 
 ### Generating a build folder for production
 
