@@ -1,5 +1,5 @@
 # dreadakidd
-Website for music artist DreaDaKidd. This is a minimal, vanilla Javascript website that uses webpack for bundling & file compression.
+Website for music artist DreaDaKidd; This is a minimal, vanilla Javascript website that uses webpack for bundling, file and image compression. This project is still a work-in-progress but you can preview it on [Netlify](https://dreadakidd.netlify.app/).
 
 ## Project Setup
 
