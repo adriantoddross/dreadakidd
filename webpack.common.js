@@ -19,7 +19,6 @@ module.exports = {
       filename: "videos.html",
       template: "src/pages/videos/videos.html",
     }),
-    
   ],
   output: {
     filename: "[name].bundle.js",
