@@ -135,6 +135,17 @@ main {
   max-width: 100%;
 }
 
+.featured-links a:focus {
+  background-color: #493072;
+  border-radius: 4px;
+  padding: 0.75em;
+}
+
+.featured-links a:hover {
+  transform: scale(1.025);
+  transition-duration: 500ms;
+}
+
 .featured-project {
   align-self: center;
   margin-top: 1em;
@@ -178,6 +189,11 @@ main {
 
 .social-media-link a:focus {
   padding: 0.25em 0.5em;
+}
+
+.social-media-link a i:hover {
+  transform: scale(0.8);
+  transition-duration: 500ms;
 }
 
 .privacy-link {
