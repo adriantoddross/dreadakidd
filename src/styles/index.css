@@ -207,3 +207,7 @@ main {
 .fine-print small {
   font-size: 0.9em;
 }
+
+[data-hook="videos"] .content-wrapper div:not(:last-child) {
+ margin-bottom: 1em;
+}
