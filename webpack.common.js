@@ -4,7 +4,8 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   entry: {
-    app: "./src/index.js",
+    homepage: "./src/index.js",
+    videos: "./src/pages/videos/index.js",
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -12,6 +13,11 @@ module.exports = {
       title: "Drea Da Kidd, American rapper and songwriter",
       filename: "index.html",
       template: "src/index.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Music videos - Drea Da Kidd",
+      filename: "videos.html",
+      template: "src/pages/videos/videos.html",
     }),
   ],
   output: {
