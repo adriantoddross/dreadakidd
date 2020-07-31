@@ -66,8 +66,22 @@ body {
   max-width: 90vw;
 }
 
-.logo {
+.logo a {
+  color: white;
   text-align: center;
+  text-decoration: none;
+}
+
+.logo a:focus {
+  background-color: #493072;
+  border-radius: 4px;
+  padding: 0.75em;
+}
+
+.logo a:hover {
+  text-align: white;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
 }
 
 main {
@@ -209,5 +223,5 @@ main {
 }
 
 [data-hook="videos"] .content-wrapper div:not(:last-child) {
- margin-bottom: 1em;
+  margin-bottom: 1em;
 }
