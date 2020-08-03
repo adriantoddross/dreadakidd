@@ -192,11 +192,15 @@ main {
   align-items: center;
 }
 
-.social-media-links {
+.social-media-links, .song-links {
   flex-direction: row;
 }
 
-.social-media-link {
+.song-links {
+  justify-content: center;
+}
+
+.social-media-link, .song-link {
   font-size: 2.25em;
   padding: 0 0.5em;
 }
