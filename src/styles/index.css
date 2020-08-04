@@ -166,10 +166,13 @@ main {
 }
 
 #featured-songs {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  place-items: center;
+  grid-gap: 1em;
+}
+
+.song {
+  border: 1px solid white;
 }
 
 .iframe-container {
@@ -199,7 +202,8 @@ main {
   align-items: center;
 }
 
-.social-media-links, .song-links {
+.social-media-links,
+.song-links {
   flex-direction: row;
 }
 
@@ -207,7 +211,8 @@ main {
   justify-content: center;
 }
 
-.social-media-link, .song-link {
+.social-media-link,
+.song-link {
   font-size: 2.25em;
   padding: 0 0.5em;
 }

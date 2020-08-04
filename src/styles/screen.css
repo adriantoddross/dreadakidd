@@ -12,6 +12,10 @@
   .featured-links {
     margin: 0 10vw;
   }
+
+  #featured-songs {
+    grid-template-columns: 50% 50%;
+  }
 }
 
 @media (min-width: 1024px) {
