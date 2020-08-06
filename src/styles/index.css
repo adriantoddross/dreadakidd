@@ -171,10 +171,6 @@ main {
   grid-gap: 1em;
 }
 
-.song {
-  border: 1px solid white;
-}
-
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
