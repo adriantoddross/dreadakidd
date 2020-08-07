@@ -205,6 +205,11 @@ main {
 
 .song-links {
   justify-content: center;
+  margin: 1em 0;
+}
+
+.song {
+  margin: 1em 0;
 }
 
 .social-media-link,
