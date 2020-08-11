@@ -213,7 +213,7 @@ main {
   margin: 1em 0;
 }
 
-.song a:first-child {
+.song a {
   display: inline-block;
 }
 
