@@ -155,7 +155,8 @@ main {
   padding: 0.75em;
 }
 
-.featured-links a:hover {
+.featured-links a:hover,
+.song img:hover {
   transform: scale(1.025);
   transition-duration: 500ms;
 }
