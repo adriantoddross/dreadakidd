@@ -218,11 +218,13 @@ main {
   padding: 0 0.5em;
 }
 
-.social-media-link a:focus {
+.social-media-link a:focus,
+.song-link a:focus {
   padding: 0.25em 0.5em;
 }
 
-.social-media-link a i:hover {
+.social-media-link a i:hover,
+.song-link a i:hover {
   transform: scale(0.8);
   transition-duration: 500ms;
 }
