@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     homepage: "./src/index.js",
     videos: "./src/pages/videos/index.js",
+    music: "./src/pages/music/index.js",
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -19,6 +20,11 @@ module.exports = {
       filename: "videos.html",
       template: "src/pages/videos/videos.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Songs and music - Drea Da Kidd",
+      filename: "music.html",
+      template: "src/pages/music/music.html",
+    }),
   ],
   output: {
     filename: "[name].bundle.js",
@@ -31,7 +37,7 @@ module.exports = {
         loader: "html-loader",
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|webp)$/,
         use: [
           {
             loader: "file-loader",
