@@ -61,6 +61,14 @@ body {
   z-index: 20;
 }
 
+.skip-link:focus {
+  background-color: #493072;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .content-wrapper {
   margin: 0 auto;
   max-width: 90vw;
@@ -70,12 +78,12 @@ body {
   text-align: center;
 }
 
-.logo a {
+.logo-link {
   color: white;
   text-decoration: none;
 }
 
-.logo a:hover {
+.logo-link:hover {
   text-align: white;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
@@ -131,7 +139,9 @@ main {
   text-decoration-skip-ink: auto;
 }
 
-.ul-link a:focus, .featured-project:focus, .song a:focus {
+.ul-link a:focus,
+.featured-project:focus,
+.song a:focus {
   background-color: #493072;
   border-radius: 4px;
   padding: 1em;
@@ -206,12 +216,12 @@ main {
   margin: 1em 0;
 }
 
-.song a, .logo a {
+.song a,
+.logo a {
   display: inline-block;
 }
 
-.social-media-link,
-.song-link {
+.social-icon {
   font-size: 2.25em;
   padding: 0 0.5em;
 }
@@ -221,8 +231,7 @@ main {
   padding: 0.25em 0.5em;
 }
 
-.social-media-link a i:hover,
-.song-link a i:hover {
+.shrink:hover {
   transform: scale(0.8);
   transition-duration: 500ms;
 }
