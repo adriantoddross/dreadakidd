@@ -25,6 +25,11 @@ module.exports = {
       filename: "music.html",
       template: "src/pages/music/music.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Songs and music - Drea Da Kidd",
+      filename: "index.html",
+      template: "src/pages/music/music.html",
+    }),
   ],
   output: {
     filename: "[name].bundle.js",
